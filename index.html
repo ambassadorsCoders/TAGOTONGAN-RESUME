@@ -3,18 +3,19 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Resume</title>
+    <title>Reynaldo B. Tagotongan Jr. | Resume</title>
     <style>
         body {
             font-family: Arial, sans-serif;
             margin: 0;
             padding: 0;
             background-color: #f4f4f4;
+            color: #333;
         }
         .container {
             width: 90%;
             max-width: 800px;
-            margin: auto;
+            margin: 30px auto;
             background: white;
             padding: 20px;
             box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
@@ -25,13 +26,14 @@
             align-items: center;
             gap: 15px;
             border-bottom: 2px solid #333;
-            padding-bottom: 10px;
+            padding-bottom: 15px;
         }
         header img {
             border-radius: 50%;
         }
         h1, h2 {
             color: #333;
+            margin-bottom: 5px;
         }
         hr {
             border: none;
@@ -40,16 +42,20 @@
             margin: 20px 0;
         }
         ul {
-            list-style-type: none;
-            padding: 0;
+            list-style: none;
+            padding-left: 0;
+        }
+        li {
+            margin-bottom: 5px;
         }
         table {
             width: 100%;
             border-collapse: collapse;
+            margin-top: 10px;
         }
         th, td {
             border: 1px solid #ddd;
-            padding: 8px;
+            padding: 10px;
             text-align: left;
         }
         th {
@@ -59,8 +65,9 @@
         footer {
             text-align: center;
             margin-top: 20px;
-            padding-top: 10px;
+            padding-top: 15px;
             border-top: 2px solid #333;
+            font-size: 0.9em;
         }
         @media (max-width: 600px) {
             header {
@@ -74,91 +81,105 @@
 <body>
     <div class="container">
         <header>
-            <img src="./Picture.png" alt="picture" height="120" width="120">
-            <h1>REYNALDO B TAGOTONGAN JR.</h1>
+            <img src="./Picture.png" alt="Profile Picture" height="120" width="120">
+            <div>
+                <h1>Reynaldo B. Tagotongan Jr.</h1>
+                <h2>Computer Programmer</h2>
+            </div>
         </header>
-        <h1>PERSONAL INFORMATION</h1>
-        <h2>Address</h2>
-        <ul>
-            <li>Blk12 Lot91 Savanna Ville Townhomes, Malagasang 1-D Imus City, Cavite</li>
-        </ul>
-        <h2>Phone Number</h2>
-        <ul>
-            <li>09311773510</li>
-        </ul>
-        <h2>Email</h2>
-        <ul>
-            <li>Reynaldotagotongan899@gmail.com</li>
-        </ul>
-        <h2>Date of Birth</h2>
-        <ul>
-            <li>08-12-2008</li>
-        </ul>
+
+        <section>
+            <h1>Personal Information</h1>
+            <h2>Address</h2>
+            <ul><li>Blk 12 Lot 91, Savanna Ville Townhomes, Malagasang 1-D, Imus City, Cavite</li></ul>
+
+            <h2>Phone Number</h2>
+            <ul><li>+63 931 177 3510</li></ul>
+
+            <h2>Email</h2>
+            <ul><li>Reynaldotagotongan899@gmail.com</li></ul>
+
+            <h2>Date of Birth</h2>
+            <ul><li>August 12, 2008</li></ul>
+        </section>
+
         <hr>
-        <h1>Experience</h1>
-        <table>
-            <tr>
-                <th>Date</th>
-                <th>Position</th>
-                <th>Details</th>
-            </tr>
-            <tr>
-                <td>2032-2035</td>
-                <td>Computer Programmer - Hireplicity</td>
-                <td>
-                    <ul>
-                        <li>Programming Languages</li>
-                        <li>Game Design</li>
-                        <li>System Analysis</li>
-                        <li>Software Bug Patching</li>
-                    </ul>
-                </td>
-            </tr>
-            <tr>
-                <td>2031-2032</td>
-                <td>OJT Trainee</td>
-                <td>
-                    <ul>
-                        <li>Game Engine Developer</li>
-                        <li>Software Engineer</li>
-                        <li>Lead Game Developer</li>
-                        <li>Encoding Personal Profile</li>
-                    </ul>
-                </td>
-            </tr>
-        </table>
+
+        <section>
+            <h1>Experience</h1>
+            <table>
+                <tr>
+                    <th>Year</th>
+                    <th>Position</th>
+                    <th>Responsibilities</th>
+                </tr>
+                <tr>
+                    <td>2032 - 2035</td>
+                    <td>Computer Programmer - Hireplicity</td>
+                    <td>
+                        <ul>
+                            <li>Developed and optimized software applications</li>
+                            <li>Designed and implemented game mechanics</li>
+                            <li>Performed system analysis and debugging</li>
+                            <li>Collaborated on software bug patching</li>
+                        </ul>
+                    </td>
+                </tr>
+                <tr>
+                    <td>2031 - 2032</td>
+                    <td>OJT Trainee</td>
+                    <td>
+                        <ul>
+                            <li>Assisted in game engine development</li>
+                            <li>Contributed to software engineering projects</li>
+                            <li>Led a small team in game development tasks</li>
+                            <li>Encoded and managed personal profile data</li>
+                        </ul>
+                    </td>
+                </tr>
+            </table>
+        </section>
+
         <hr>
-        <h1>Education</h1>
-        <table>
-            <tr>
-                <th>Date</th>
-                <th>School</th>
-            </tr>
-            <tr>
-                <td>2026-2030</td>
-                <td>Cavite Cavsu University</td>
-            </tr>
-            <tr>
-                <td>2024-2026</td>
-                <td>Unida Christian Colleges</td>
-            </tr>
-            <tr>
-                <td>2020-2024</td>
-                <td>Imus National Highschool</td>
-            </tr>
-            <tr>
-                <td>2014-2020</td>
-                <td>Malagasang 1-D Elementary School</td>
-            </tr>
-        </table>
+
+        <section>
+            <h1>Education</h1>
+            <table>
+                <tr>
+                    <th>Year</th>
+                    <th>School</th>
+                </tr>
+                <tr>
+                    <td>2026 - 2030</td>
+                    <td>Cavite State University (CAVSU)</td>
+                </tr>
+                <tr>
+                    <td>2024 - 2026</td>
+                    <td>Unida Christian Colleges</td>
+                </tr>
+                <tr>
+                    <td>2020 - 2024</td>
+                    <td>Imus National High School</td>
+                </tr>
+                <tr>
+                    <td>2014 - 2020</td>
+                    <td>Malagasang 1-D Elementary School</td>
+                </tr>
+            </table>
+        </section>
+
         <hr>
-        <h1>Awards and Certification</h1>
-        <ul>
-            <li>With Honors</li>
-            <li>Latin Award: Cum Laude</li>
-        </ul>
+
+        <section>
+            <h1>Awards & Certifications</h1>
+            <ul>
+                <li>With Honors</li>
+                <li>Latin Honor: Cum Laude</li>
+            </ul>
+        </section>
+
         <footer>
-            <h3>© 2024 Reynaldo B. Tagotongan Jr. All rights reserved</h3>
+            <h3>© 2024 Reynaldo B. Tagotongan Jr. | All Rights Reserved</h3>
         </footer>
     </div>
 </body>
